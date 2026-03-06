@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.232.188.115:9000/</sonar.host.url>
-		<sonar.login>squ_6251fb65201725d19a4ad130761aa8a9c0814278</sonar.login>
-		 
+		<sonar.host.url>http://18.206.54.23:9000/</sonar.host.url>
+		<sonar.login>squ_c9ef0389abc73a5e79c56d49427e7928a464ed44</sonar.login>
+
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Release-icicibank</name>
-	      <url>http://3.7.250.10:8081/repository/Release-icicibank/</url>
+	      <name>Release-icicibank1 Nexus Repository</name>
+	      <url>http://13.250.44.193:8081/repository/Release-icicibank1/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Snapshot-icicibank</name>
-	      <url>http://3.7.250.10:8081/repository/Snapshot-icicibank/</url>
+	      <name>Snapshot-icicibank1 Nexus Repository </name>
+	      <url>http://13.250.44.193:8081/repository/Snapshot-icicibank1/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
@@ -151,6 +151,12 @@
 					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
+			
+</plugins>
+	</build>
+	
+	
+</project>
 			
 </plugins>
 	</build>
